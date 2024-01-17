@@ -29,9 +29,9 @@ function criarTabela() {
         tdNome.textContent = jogadores[i].nome;
         tr.appendChild(tdNome);
 
-        var tdPosicao = document.createElement("td");
-        tdPosicao.textContent = jogadores[i].posicao;
-        tr.appendChild(tdPosicao);
+        // var tdPosicao = document.createElement("td");
+        // tdPosicao.textContent = jogadores[i].posicao;
+        // tr.appendChild(tdPosicao);
 
         var tdCheckbox = document.createElement("td");
         var checkbox = document.createElement("input");
