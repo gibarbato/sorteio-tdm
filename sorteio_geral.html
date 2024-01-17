@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Jogadores</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav>
+        <li><a href="index.html">Tela Inicial</a></li>
+        <h1>SORTEIO GERAL</h1>
+    </nav>
+    <main>
+    <section class="tabela-confirmacao">
+        <h2>Seleção de Jogadores</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome do Jogador</th>
+                    <th>Posição</th>
+                    <th>Confirmar</th>
+                    <th>Reserva</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+                <!-- Linhas da tabela serão adicionadas dinamicamente com JavaScript -->
+            </tbody>
+        </table>
+
+        <button onclick="confirmarSelecao()" id="botaoConfirmar">Confirmar Seleção</button>
+
+        <div id="listaConfirmada"></div>
+    </section>
+
+
+    <section class="divisao-times">
+        <div class="time timeLaranja">
+            <img src="img\principal.png"/>
+            <div class="lista">
+                <div id="jogadoresLaranja"></div>
+            </div>
+        </div>
+
+        <div class="time timePreto">
+            <img src="img\principalBlack.png"/>
+            <div class="lista">
+                <div id="jogadoresPreto"></div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="script2.js"></script>
+
+</body>
+
+</html>
