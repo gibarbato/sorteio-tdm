@@ -112,3 +112,7 @@ th{
 #botaoConfirmar {
     margin: 10px;
 }
+
+#lista-jogadores:hover{
+    cursor: pointer;
+}
