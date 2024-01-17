@@ -57,6 +57,10 @@ th{
     font-weight: bold;
 }
 
+.body-tela-inicial {
+    background: #FFA500;
+}
+
 .tela-inicial {
     display: flex;
     flex-direction: column;
@@ -69,11 +73,27 @@ th{
     margin: 15px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .icones-sorteio > div{
     display: flex;
     margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-sorteio> div > a{
+    display: flex;
+    margin: 15px;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
 }
 
 .nav-sorteio {
@@ -86,8 +106,6 @@ th{
 .tabela-confirmacao {
     align: center;
 }
-
-
 
 #botaoConfirmar {
     margin: 10px;
