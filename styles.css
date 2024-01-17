@@ -57,6 +57,38 @@ th{
     font-weight: bold;
 }
 
+.tela-inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones-sorteio{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones-sorteio > div{
+    display: flex;
+    margin: 15px;
+}
+
+.nav-sorteio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.tabela-confirmacao {
+    align: center;
+}
+
+
+
 #botaoConfirmar {
     margin: 10px;
 }
