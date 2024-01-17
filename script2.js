@@ -99,11 +99,11 @@ function confirmarSelecao() {
 
     timeLaranja.forEach(function (jogador, index) {
         console.log(jogador.nome);
+        
         var jogadorDiv = document.createElement('div');
         jogadorDiv.innerHTML = `
             <p>${index+1} - ${jogador.nome}</p>
         `;
-
         listaTimeLaranja.appendChild(jogadorDiv);
     })
 
