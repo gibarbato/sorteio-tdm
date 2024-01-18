@@ -98,7 +98,7 @@ function confirmarSelecao() {
 
     // Criar Times em tela
 
-  var listaTimeLaranja = document.getElementById('jogadoresLaranja');
+    var listaTimeLaranja = document.getElementById('jogadoresLaranja');
     listaTimeLaranja.innerHTML = "";
 
     timeLaranja.forEach(function (jogador, index) {
@@ -126,15 +126,10 @@ function confirmarSelecao() {
         }, 500 * index);
     });
 
-
-    // Desabilitar o botão após clicar
     listaConfirmada.innerHTML = "";
-
-
 
     document.getElementById("botaoConfirmar").disabled = true;
 }
-
 
 window.onload = criarTabela;
 
