@@ -44,7 +44,7 @@ th{
 }
 
 .timeLaranja {
-    background-color: #FFA500;
+    background-color: #F18836;
     color: #000;
     font-size: x-large;
     font-weight: bold;
@@ -52,13 +52,13 @@ th{
 
 .timePreto {
     background-color: #000;
-    color: #FFA500;
+    color: #F18836;
     font-size: x-large;
     font-weight: bold;
 }
 
 .body-tela-inicial {
-    background: #FFA500;
+    background: #F18836;
 }
 
 .tela-inicial {
