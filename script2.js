@@ -94,46 +94,37 @@ function confirmarSelecao() {
 
     // Criar Times em tela
 
-    var listaTimeLaranja = document.getElementById('jogadoresLaranja');
+var listaTimeLaranja = document.getElementById('jogadoresLaranja');
     listaTimeLaranja.innerHTML = "";
 
     timeLaranja.forEach(function (jogador, index) {
         console.log(jogador.nome);
-        
-        var jogadorDiv = document.createElement('div');
-        jogadorDiv.innerHTML = `
-            <p>${index+1} - ${jogador.nome}</p>
-        `;
-        listaTimeLaranja.appendChild(jogadorDiv);
+        setTimeout(function(){
+            var jogadorDiv = document.createElement('div');
+            jogadorDiv.innerHTML = `
+                <p>${index+1} - ${jogador.nome}</p>
+            `;
+            listaTimeLaranja.appendChild(jogadorDiv);
+        }, 500 * index)
     })
-
 
     var listaTimePreto = document.getElementById('jogadoresPreto');
     listaTimePreto.innerHTML = "";
 
     timePreto.forEach(function (jogador, index) {
         console.log(jogador.nome);
-        var jogadorDiv = document.createElement('div');
-        jogadorDiv.innerHTML = `
-        <p>${index+1} - ${jogador.nome}</p>
-        `;
-        listaTimePreto.appendChild(jogadorDiv);
+        setTimeout(function() {
+            var jogadorDiv = document.createElement('div');
+            jogadorDiv.innerHTML = `
+            <p>${index+1} - ${jogador.nome}</p>
+            `;
+            listaTimePreto.appendChild(jogadorDiv);
+        }, 500 * index)
     })
 
-    // for(i = 0; i < timePreto.length; i++){
-    //     console.log(timePreto.nome);
-    //     var jogadorDiv = document.createElement('div');
-    //     jogadorDiv.innerHTML = `
-    //     <p>${i} - ${timePreto.nome}</p>
-    //     `;
-    //     listaTimePreto.appendChild(jogadorDiv);
-    // }
 
     // Desabilitar o botão após clicar
     listaConfirmada.innerHTML = "";
-
-    // var tabelaJogadores = document.getElementById("tabelaJogadores");
-    // tabelaJogadores.innerHTML = "";
 
     document.getElementById("botaoConfirmar").disabled = true;
 }
