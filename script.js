@@ -131,7 +131,6 @@ function confirmarSelecao() {
     document.getElementById("botaoConfirmar").disabled = true;
 }
 
-
 window.onload = criarTabela;
 
 // Embaralhar os jogadores
