@@ -30,15 +30,15 @@ function exibirJogadores() {
     listaInicial.appendChild(titulo);
 
     // Adiciona cada jogador ao listaInicial
-    jogadores.forEach(function (jogador) {
-        var jogadorDiv = document.createElement("div");
-        jogadorDiv.innerHTML = `
-           <li>
-                ${jogador.nome}
-           </li>    
-  
-`;
-        listaInicial.appendChild(jogadorDiv);
-
+    jogadores.forEach(function (jogador, index) {
+        setTimeout(function () {
+            var jogadorDiv = document.createElement("div");
+            jogadorDiv.innerHTML = `
+               <li>
+                    ${jogador.nome}
+               </li>    
+    `;
+            listaInicial.appendChild(jogadorDiv);
+        }, 500 * index)
     });
 }
