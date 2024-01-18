@@ -1,7 +1,7 @@
 body {
     background:  hsl(40, 43%, 85%);
     font-family: Arial, sans-serif;
-    height: 95vh;
+    height: 100vh;
     margin: 0;
 }
 
@@ -25,16 +25,16 @@ th{
 
 .divisao-times {
     display: flex;
-    margin: 10px;
-}
-
-.divisao-times>div {
     margin: 5px;
 }
 
+.divisao-times>div {
+    margin: 2px;
+}
+
 .time {
-    margin: 20px;
-    padding: 5px;
+    margin: 10px;
+    padding: 2px;
     width: 200px;
     border: 2px solid #ccc;
     border-radius: 10px;
