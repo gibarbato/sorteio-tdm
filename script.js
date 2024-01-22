@@ -1,16 +1,18 @@
 var jogadores = [
     { nome: "Giba", posicao: "Goleiro" },
     { nome: "André (G)", posicao: "Goleiro" },
+    // { nome: "Mel", posicao: "Defensor" },
     { nome: "Mel", posicao: "Defensor" },
     { nome: "Sérgio", posicao: "Defensor" },
     { nome: "Gui", posicao: "Defensor" },
-    { nome: "Luizão", posicao: "Defensor" },
-    { nome: "Cléo", posicao: "Meia" },
-    { nome: "Werner", posicao: "Meia" },
-    { nome: "Dú", posicao: "Meia" },
-    { nome: "João", posicao: "Meia" },
+    { nome: "Luizão", posicao: "Meia" },
     { nome: "Gaúcho", posicao: "Meia" },
     { nome: "André (Babi)", posicao: "Meia" },
+    { nome: "Dú", posicao: "Meia" },
+    // { nome: "Luizão", posicao: "Meia" },
+    { nome: "João", posicao: "Meia" },
+    { nome: "Cléo", posicao: "Meia" },
+    { nome: "Werner", posicao: "Meia" },
     { nome: "Guga", posicao: "Atacante" },
     { nome: "Ademar", posicao: "Atacante" },
     { nome: "Caio", posicao: "Atacante" },
@@ -79,16 +81,17 @@ function confirmarSelecao() {
     console.log("Nova seleção de jogadores:", selecaoJogadores);
 
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
-    var defensores = shuffle(selecaoJogadores.slice(2, 6));
-    var meias = shuffle(selecaoJogadores.slice(6, 12));
-    var atacantes = shuffle(selecaoJogadores.slice(12, 16));
+    var defensores = shuffle(selecaoJogadores.slice(2, 7));
+    var meias = shuffle(selecaoJogadores.slice(7, 16));
+    // var atacantes = shuffle(selecaoJogadores.slice(12, 16));
     console.log(goleiros);
     console.log(defensores);
     console.log(meias);
-    console.log(atacantes);
+    // console.log(atacantes);
 
-    var jogadoresLaranja = [...defensores.slice(0, 2), ...meias.slice(0, 3), ...atacantes.slice(0, 2)]
-    var jogadoresPreto = [...defensores.slice(2), ...meias.slice(3), ...atacantes.slice(2)]
+    // var jogadoresLaranja = [...defensores.slice(0, 2), ...meias.slice(0, 3), ...atacantes.slice(0, 2)]
+    var jogadoresLaranja = [...defensores.slice(0, 3), ...meias.slice(5)]
+    var jogadoresPreto = [...defensores.slice(3), ...meias.slice(0, 5)]
 
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
     var timePreto = [goleiros[1], ...shuffle(jogadoresPreto)];
