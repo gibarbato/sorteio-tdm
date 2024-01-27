@@ -17,10 +17,13 @@ img {
     align-items: center;
 }
 
+tbody > tr {
+    border: 1px solid black;
+}
+
 th{
     justify-content: center;
     align: center;
-    
 }
 
 .divisao-times {
