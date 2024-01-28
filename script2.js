@@ -36,6 +36,7 @@ function criarTabela() {
         var tdCheckbox = document.createElement("td");
         var checkbox = document.createElement("input");
         checkbox.type = "checkbox";
+        checkbox.checked = true;
         tdCheckbox.appendChild(checkbox);
         tr.appendChild(tdCheckbox);
 
