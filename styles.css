@@ -33,6 +33,12 @@ td {
     border: 1px solid black;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    items-align: center;
+}
+
 .divisao-times {
     display: flex;
     margin: 5px;
