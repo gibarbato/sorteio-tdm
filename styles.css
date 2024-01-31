@@ -42,7 +42,7 @@ footer {
 }
 
 footer > div {
-    align center;
+    position: relative; 
 }
 
 .divisao-times {
