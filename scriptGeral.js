@@ -49,7 +49,7 @@ function criarTabela() {
         tabelaJogadores.appendChild(tr);
     }
 }
-
+window.onload = criarTabela;
 
 function confirmarSelecao() {
     var listaConfirmada = document.getElementById("listaConfirmada");
@@ -78,7 +78,8 @@ function confirmarSelecao() {
     listaConfirmada.innerHTML += "</ul>";
 
     console.log("Nova seleção de jogadores:", selecaoJogadores);
-
+    
+    // embaralhamento dos jogadores
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
     var jogadoresLinha = shuffle(selecaoJogadores.slice(2));
     console.log(goleiros);
@@ -122,16 +123,16 @@ var listaTimeLaranja = document.getElementById('jogadoresLaranja');
             listaTimePreto.appendChild(jogadorDiv);
         }, 500 * index)
     })
-
-
+    
+    
     // Desabilitar o botão após clicar
     listaConfirmada.innerHTML = "";
-
+    
     document.getElementById("botaoConfirmar").disabled = true;
 }
 
 
-window.onload = criarTabela;
+
 
 // Embaralhar os jogadores
 function shuffle(array) {

@@ -33,16 +33,28 @@ td {
     border: 1px solid black;
 }
 
+.centralizarTd{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 35px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 20px;
-    align="middle"
+    align="middle";
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
 
 footer > div {
-    position: relative; 
+    /* position: relative;  */
+    margin-right: 5px;
 }
 
 .divisao-times {
@@ -131,12 +143,25 @@ footer > div {
     padding: 1px;
 }
 
+.titleSorteio{
+    margin: auto;
+    text-Align: center;
+}
+
 .tabela-confirmacao {
     align: center;
 }
 
-#botaoConfirmar {
+#botaoConfirmar, #botaoSortear {
     margin: 10px;
+}
+
+#listaConfirmada {
+    display:column;
+    justify-content: center;
+    align-items: center;
+    text-Align: center;
+    padding: 0 35px;
 }
 
 #lista-jogadores:hover{
