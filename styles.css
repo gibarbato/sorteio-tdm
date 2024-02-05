@@ -192,6 +192,15 @@ footer > div {
 
 .tabela-confirmacao {
     align: center;
+    
+}
+
+.fundo-confirmacao{
+    min-height: 100%;
+    background-image: url(./img/fundo_sorteio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #botaoConfirmar, #botaoSortear {
