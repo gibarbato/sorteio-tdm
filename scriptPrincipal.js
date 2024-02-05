@@ -89,7 +89,7 @@ function sortearTimes() {
     
     // embaralhamento dos jogadores
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
-    var jogadoresLinha = shuffle(selecaoJogadores.slice(2));
+    var jogadoresLinha = shuffle(shuffle(selecaoJogadores.slice(2)));
     console.log(goleiros);
     console.log(jogadoresLinha);
     
