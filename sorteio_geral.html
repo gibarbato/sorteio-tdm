@@ -12,7 +12,7 @@
 
 <body>
     <nav class="nav-sorteio">
-        <img src="./img/logo.png" alt="Logo" />
+        <img id="logo" src="./img/logo_fundo_preto.png" alt="Logo" />
         <h1>SORTEIO GERAL</h1>
         <li><a href="index.html">Tela Inicial</a></li>
     </nav>
@@ -47,12 +47,12 @@
       </button> -->
 
         <!-- Modal -->
-        <div class="modal fade" style="background-color: hsl(40, 43%, 85%);" id="sorteioTimes" tabindex="-1"
+        <div class="modal fade fundo-externo-modal" id="sorteioTimes" tabindex="-1"
             aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content justify-content-center" style="background-color: hsl(40, 43%, 85%);">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5 " id="exampleModalLabel">Sorteio TDM</h1>
+                <div class="modal-content justify-content-center fundo-modal" >
+                    <div class="modal-header  titleSorteio">
+                        <h1 class="modal-title fs-5 destaque" id="exampleModalLabel">Sorteio TDM</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body result-sorteio">
@@ -71,7 +71,8 @@
                                 </div>
                             </div>
                         </section>
-                        <p>Developed by <a href="https://www.linkedin.com/in/gilberto-barbato-98198526/">@gibarbato</a></p>
+                        <p class="destaque">Developed by <a href="https://www.linkedin.com/in/gilberto-barbato-98198526/">@gibarbato</a></p>
+                        <img id="patrocinio-sorteio" src="./img/patrocinadores2.png"/>
                     </div>
                 </div>
             </div>
