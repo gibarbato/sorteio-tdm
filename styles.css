@@ -170,8 +170,7 @@ footer > div {
     margin: 15px;
     color: #000;
     font-size: large;
-    font-weight: bold;
-}
+    }
 
 .nav-sorteio {
     display: flex;
@@ -188,11 +187,12 @@ footer > div {
 .titleSorteio{
     margin: auto;
     text-Align: center;
+
 }
 
 .tabela-confirmacao {
     align: center;
-    
+    font-weight: bold;    
 }
 
 .fundo-confirmacao{
@@ -213,6 +213,8 @@ footer > div {
     align-items: center;
     text-Align: center;
     padding: 0 35px;
+    color: orange;
+    font-weight: bold;    
 }
 
 #lista-jogadores:hover{
