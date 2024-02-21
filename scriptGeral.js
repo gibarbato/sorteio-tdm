@@ -1,7 +1,7 @@
 var jogadores = [
     { nome: "Giba", posicao: "Goleiro" },
     { nome: "André (G)", posicao: "Goleiro" },
-    { nome: "Mel / Fatiada", posicao: "Defensor" },
+    { nome: "Mel", posicao: "Defensor" },
     { nome: "Sérgio", posicao: "Defensor" },
     { nome: "Gui", posicao: "Defensor" },
     { nome: "Luizão", posicao: "Defensor" },
