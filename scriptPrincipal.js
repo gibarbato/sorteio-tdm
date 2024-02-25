@@ -151,7 +151,3 @@ function updateDateTime() {
     document.getElementById('currentDateTime').textContent = formattedDateTime;
 }
 updateDateTime();
-
-function voltarParaIndex() {
-window.location.href = 'index.html';
-}
