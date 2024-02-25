@@ -189,6 +189,8 @@ footer > div {
 }
 
 .titleSorteio{
+    display: flex;
+    flex-direction: column;
     margin: auto;
     text-Align: center;
 
