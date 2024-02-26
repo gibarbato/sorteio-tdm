@@ -147,3 +147,16 @@ function shuffle(array) {
     }
     return array;
 }
+
+function updateDateTime() {
+    const currentDateTime = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    const formattedDateTime = currentDateTime.toLocaleDateString('pt-BR', options);
+    document.getElementById('currentDateTime').textContent = formattedDateTime;
+}
+updateDateTime();
+
+function retornarParaIndex() {
+    // Lógica para redirecionar para index.html
+    window.location.href = "index.html";
+}
