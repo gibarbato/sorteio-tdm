@@ -61,6 +61,14 @@ footer > div {
     margin-right: 5px;
 }
 
+.slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-weight: 1200;
+    font-style: bold;
+    color: black;
+  }
+  
+
 .redes-sociais{
     align-items: center;
 }
@@ -69,6 +77,7 @@ footer > div {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 .divisao-times {
@@ -128,6 +137,19 @@ footer > div {
     /* background: #F18836; */
     background-image: url(./img/fundo_sorteio.png);
 }
+
+.imgPrincipal {
+    margin: 2px;
+    weight: auto;
+    height: auto;
+}
+
+.imgModal {
+    margin: 2px;
+    weight: 10px;
+    height: auto;
+}
+
 .body-tela-inicial {
     /* background: #F18836; */
     min-height: 100%;
@@ -193,6 +215,7 @@ footer > div {
     flex-direction: column;
     margin: auto;
     text-Align: center;
+
 }
 
 .tabela-confirmacao {
@@ -226,7 +249,8 @@ footer > div {
     text-Align: center;
     padding: 0 35px;
     color: orange;
-    font-weight: bold;    
+    font-weight: bold; 
+    list-style-type: none;
 }
 
 #lista-jogadores:hover{
