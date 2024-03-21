@@ -112,7 +112,7 @@ var listaTimeLaranja = document.getElementById('jogadoresLaranja');
         setTimeout(function(){
             var jogadorDiv = document.createElement('div');
             jogadorDiv.innerHTML = `
-                <p>${index+1} - ${jogador.nome}</p>
+                <p>${index == 0 ? 'G': index} - ${jogador.nome}</p>
             `;
             listaTimeLaranja.appendChild(jogadorDiv);
         }, 500 * index)
@@ -126,7 +126,7 @@ var listaTimeLaranja = document.getElementById('jogadoresLaranja');
         setTimeout(function() {
             var jogadorDiv = document.createElement('div');
             jogadorDiv.innerHTML = `
-            <p>${index+1} - ${jogador.nome}</p>
+            <p>${index == 0 ? 'G': index} - ${jogador.nome}</p>
             `;
             listaTimePreto.appendChild(jogadorDiv);
         }, 500 * index)
