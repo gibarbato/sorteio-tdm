@@ -1,13 +1,12 @@
 var jogadores = [
     { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },
-    { nome: "André (G)", posicao: "Goleiro", mensalista: "sim" },
+    { nome: "Rô", posicao: "Goleiro", mensalista: "sim" },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },
     { nome: "Gui", posicao: "Defensor", mensalista: "sim" },
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },
     { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },
     { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },
-    { nome: "Dú", posicao: "Meia", mensalista: "sim" },
     { nome: "João", posicao: "Meia", mensalista: "sim" },
     { nome: "Cléo", posicao: "Meia", mensalista: "sim" },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },
@@ -15,6 +14,9 @@ var jogadores = [
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },
     { nome: "Caio", posicao: "Atacante", mensalista: "sim" },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },
+    { nome: "Du", posicao: "Sem posição", mensalista: "não" },
+    { nome: "Pedro", posicao: "Sem posição", mensalista: "não" },
+    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },
     { nome: "Fatiada", posicao: "Sem posição", mensalista: "não" },
     { nome: "Giovane", posicao: "Defensor", mensalista: "não" },
     { nome: "Lucas", posicao: "Meia", mensalista: "não" },
@@ -95,32 +97,32 @@ function sortearTimes() {
     
     var jogadoresLaranja = [...jogadoresLinha.slice(0, 7)]
     var jogadoresPreto = [...jogadoresLinha.slice(7)]
-
+    
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
     var timePreto = [goleiros[1], ...shuffle(jogadoresPreto)];
-
+    
     console.log(timeLaranja);
     console.log(timePreto);
-
+    
     // Criar Times em tela
-
-var listaTimeLaranja = document.getElementById('jogadoresLaranja');
+    
+    var listaTimeLaranja = document.getElementById('jogadoresLaranja');
     listaTimeLaranja.innerHTML = "";
-
+    
     timeLaranja.forEach(function (jogador, index) {
         console.log(jogador.nome);
         setTimeout(function(){
             var jogadorDiv = document.createElement('div');
             jogadorDiv.innerHTML = `
-                <p>${index == 0 ? 'G': index} - ${jogador.nome}</p>
+            <p>${index == 0 ? 'G': index} - ${jogador.nome}</p>
             `;
             listaTimeLaranja.appendChild(jogadorDiv);
         }, 500 * index)
     })
-
+    
     var listaTimePreto = document.getElementById('jogadoresPreto');
     listaTimePreto.innerHTML = "";
-
+    
     timePreto.forEach(function (jogador, index) {
         console.log(jogador.nome);
         setTimeout(function() {
@@ -131,6 +133,7 @@ var listaTimeLaranja = document.getElementById('jogadoresLaranja');
             listaTimePreto.appendChild(jogadorDiv);
         }, 500 * index)
     })
+    updateDateTime();
 }
 
 // Função para embaralhar os jogadores
@@ -151,7 +154,6 @@ function updateDateTime() {
     const formattedDateTime = currentDateTime.toLocaleDateString('pt-BR', options);
     document.getElementById('currentDateTime').textContent = formattedDateTime;
 }
-updateDateTime();
 
 function retornarParaIndex() {
     // Lógica para redirecionar para index.html

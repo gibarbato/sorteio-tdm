@@ -7,18 +7,13 @@
     <title>Confirmação de Jogadores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Slackey&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body class="fundo-confirmacao">
     <nav class="nav-sorteio">
         <img id="logo" src="./img/logo_fundo_preto.png" alt="Logo" />
-        <h1 class="slackey-regular">CONFIRMAÇÃO DE PRESENÇA</h1>
+        <h1>SORTEIO DA DIREÇÃO</h1>
         <li><a href="index.html">Tela Inicial</a></li>
     </nav>
     <main>
@@ -29,8 +24,8 @@
                     <tr>
                         <th>Nome do Jogador</th>
                         <!-- <th>Posição</th> -->
-                        <th>Confirmação</th>
-                        <th class="titleSorteio">Reserva</th>
+                        <th>Confirmar</th>
+                        <th>Reserva</th>
                     </tr>
                 </thead>
                 <tbody id="tabelaJogadores">
@@ -38,39 +33,20 @@
                 </tbody>
             </table>
 
+
+
+            <div id="listaConfirmada"></div>
         </section>
 
         <section>
-            <button onclick="confirmarPresenca()" id="botaoConfirmar" data-bs-toggle="modal"
-                data-bs-target="#listaPresenca">Confirmar</button>
+            <button onclick="confirmarSelecao()" id="botaoConfirmar" data-bs-toggle="modal"
+                data-bs-target="#sorteioTimes">Sortear Times</button>
         </section>
-
-        <!-- Modal lista para sorteio-->
-        <!-- <div class="modal fade" style="background-color: hsl(40, 43%, 85%);" id="listaPresenca" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
-        <div class="modal fade" style="background-image: url(./img/fundo_sorteio.png);" id="listaPresenca" tabindex="-1"
+        <!-- Modal -->
+        <div class="modal fade fundo-externo-modal" id="sorteioTimes" tabindex="-1"
             aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content justify-content-center titleSorteio cartas">
-                    <div class="modal-header titleSorteio">
-                        <h1 class="modal-title fs-5 slackey-regular" id="exampleModalLabel">Sorteio Times</h1>
-                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-                    </div>
-                    <div>
-                        <div id="listaConfirmada"></div>
-                        <!-- <div>HORA DO SHOW!!!</div> -->
-                        <div><button onclick="sortearTimes()" class="botoes" id="botaoSortear" data-bs-toggle="modal"
-                                data-bs-target="#sorteioTimes ">Sortear Times</button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal times sorteados-->
-        <div class="modal fade fundo-externo-modal" id="sorteioTimes" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog ">
-                <div class="modal-content justify-content-center fundo-modal">
+                <div class="modal-content justify-content-center fundo-modal" >
                     <div style="display: flex; ">
                         <div class="modal-header  titleSorteio">
                             <!-- <h1 class="modal-title fs-5 destaque" id="exampleModalLabel">Sorteio TDM</h1> -->
@@ -83,7 +59,7 @@
                                 onclick="retornarParaIndex()"></button>
                         </div>
                     </div>
-                    <div class="modal-body  result-sorteio  titleSorteio">
+                    <div class="modal-body  result-sorteio">
                         <section class="divisao-times">
                             <div class="time timeLaranja">
                                 <img src="img\logo.png" />
@@ -99,9 +75,8 @@
                                 </div>
                             </div>
                         </section>
-                        <p class="destaque">Developed by <a
-                                href="https://www.linkedin.com/in/gilberto-barbato-98198526/">@gibarbato</a></p>
-                        <img id="patrocinio-sorteio" src="./img/patrocinadores2.png" />
+                        <p class="destaque">Developed by <a href="https://www.linkedin.com/in/gilberto-barbato-98198526/">@gibarbato</a></p>
+                        <img id="patrocinio-sorteio" src="./img/patrocinadores2.png"/>
                     </div>
                 </div>
             </div>
