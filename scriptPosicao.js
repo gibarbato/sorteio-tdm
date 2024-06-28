@@ -1,29 +1,29 @@
 
 var jogadores = [
     // { Goleiros },
-    { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },//0
-    { nome: "Rô", posicao: "Goleiro", mensalista: "sim" },//1
+    { nome: "André Guapo", posicao: "Goleiro", mensalista: "sim" },//0
+    { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },//1
     // { Divisão 1 },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
-    { nome: "Gui", posicao: "Defensor", mensalista: "sim" },//3
+    { nome: "Fatiada", posicao: "Defensor", mensalista: "sim" },//3
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//4
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//5
     { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },//6
-    { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },//9
+    { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },//7
     // { Divisão 2 },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//8
-    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//7
+    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
     { nome: "Caio", posicao: "Atacante", mensalista: "sim" },//10
     { nome: "João", posicao: "Meia", mensalista: "sim" },//11
     // { Divisão 3 },
-    { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
-    { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//13
+    { nome: "Du", posicao: "Sem posição", mensalista: "sim" },//12
+    { nome: "Werner", posicao: "Meia", mensalista: "sim" },//13
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
-    { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//15
+    { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
-    { nome: "Du", posicao: "Sem posição", mensalista: "não" },
+    { nome: "Gui", posicao: "Defensor", mensalista: "não" },
+    { nome: "Cléo", posicao: "Meia", mensalista: "não" },
     { nome: "Pedro", posicao: "Sem posição", mensalista: "não" },
-    { nome: "Fatiada", posicao: "Sem posição", mensalista: "não" },
     { nome: "Giovane", posicao: "Defensor", mensalista: "não" },
     { nome: "Lucas", posicao: "Meia", mensalista: "não" },
 ];
