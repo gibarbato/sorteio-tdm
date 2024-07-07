@@ -126,7 +126,7 @@ footer > div {
 
 .cartas{
     color: white;
-    min-height: 90%;
+    min-height: 100%;
     background-image: url(./img/cartas.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,6 +274,3 @@ footer > div {
     height: auto;
 }
 
-#topConfirmacao{
-    margin-top: 0;
-}
