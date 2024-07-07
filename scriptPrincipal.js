@@ -5,7 +5,7 @@ var jogadores = [
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },
     { nome: "Fatiada", posicao: "Meia", mensalista: "sim" },
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },
-    { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },
+    { nome: "Gaúcho", posicao: "Meia", mensalista: "não" },
     { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },
     { nome: "João", posicao: "Meia", mensalista: "sim" },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },
@@ -18,7 +18,7 @@ var jogadores = [
     { nome: "Gui", posicao: "Defensor", mensalista: "não" },
     { nome: "Cléo", posicao: "Meia", mensalista: "não" },
     { nome: "Rô", posicao: "Goleiro", mensalista: "não" },
-    { nome: "Pedro", posicao: "Sem posição", mensalista: "não" },
+    { nome: "Pedro", posicao: "Sem posição", mensalista: "sim" },
     { nome: "Giovane", posicao: "Defensor", mensalista: "não" },
     { nome: "Lucas", posicao: "Meia", mensalista: "não" },
 ];
