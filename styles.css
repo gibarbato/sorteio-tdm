@@ -270,7 +270,8 @@ footer > div {
 }
 
 #logo {
-    width: 120px;
+    width: 150px;
     height: auto;
+    padding: 0px;
 }
 
