@@ -126,7 +126,7 @@ footer > div {
 
 .cartas{
     color: white;
-    min-height: 100%;
+    min-height: 90%;
     background-image: url(./img/cartas.png);
     background-size: cover;
     background-repeat: no-repeat;
