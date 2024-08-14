@@ -8,13 +8,13 @@ var jogadores = [
     { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },
     { nome: "João", posicao: "Meia", mensalista: "sim" },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },
+    { nome: "Gaúcho", posicao: "Atacante", mensalista: "sim" },
     { nome: "Du", posicao: "Meia", mensalista: "sim" },
     { nome: "Xhande", posicao: "Meia", mensalista: "sim" },
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },
-    { nome: "Caio", posicao: "Atacante", mensalista: "sim" },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },
-    { nome: "Pedro", posicao: "Sem posição", mensalista: "sim" },
+    { nome: "Pedro", posicao: "Atacante", mensalista: "sim" },
 ];
 
 var selecaoJogadores = [];
