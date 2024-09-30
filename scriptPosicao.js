@@ -16,7 +16,7 @@ var jogadores = [
     { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },//6
     { nome: "Du", posicao: "Sem posição", mensalista: "sim" },//12
     // { Divisão 3 },
-    { nome: "João Henrique", posicao: "Meia", mensalista: "sim" },//11
+    { nome: "João H.", posicao: "Meia", mensalista: "sim" },//11
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//13
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
