@@ -6,7 +6,7 @@ var jogadores = [
     { nome: "Fatiada", posicao: "Meia", mensalista: "sim" },
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },
     { nome: "André", posicao: "Meia", mensalista: "sim" },
-    { nome: "João", posicao: "Meia", mensalista: "sim" },
+    { nome: "João H", posicao: "Meia", mensalista: "sim" },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },
     { nome: "Du", posicao: "Meia", mensalista: "sim" },
     { nome: "Xhande", posicao: "Meia", mensalista: "sim" },
