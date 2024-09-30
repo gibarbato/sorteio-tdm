@@ -1,12 +1,12 @@
 var jogadores = [
     { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },
-    { nome: "André Guapo", posicao: "Goleiro", mensalista: "sim" },
+    { nome: "Guapo", posicao: "Goleiro", mensalista: "sim" },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },
     { nome: "Fatiada", posicao: "Meia", mensalista: "sim" },
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },
-    { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },
-    { nome: "João", posicao: "Meia", mensalista: "sim" },
+    { nome: "André", posicao: "Meia", mensalista: "sim" },
+    { nome: "João Henrique", posicao: "Meia", mensalista: "sim" },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },
     { nome: "Gaúcho", posicao: "Atacante", mensalista: "sim" },
     { nome: "Du", posicao: "Meia", mensalista: "sim" },
@@ -14,7 +14,7 @@ var jogadores = [
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },
-    { nome: "Pedro", posicao: "Atacante", mensalista: "sim" },
+    { nome: "João Baron", posicao: "Atacante", mensalista: "sim" },
 ];
 
 var selecaoJogadores = [];
