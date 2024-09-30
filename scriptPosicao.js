@@ -1,28 +1,28 @@
 
 var jogadores = [
     // { Goleiros },
-    { nome: "André Guapo", posicao: "Goleiro", mensalista: "sim" },//0
+    { nome: "Guapo", posicao: "Goleiro", mensalista: "sim" },//0
     { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },//1
     // { Divisão 1 },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//4
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//5
-    { nome: "André (Babi)", posicao: "Meia", mensalista: "sim" },//7
+    { nome: "André", posicao: "Meia", mensalista: "sim" },//7
     { nome: "Fatiada", posicao: "Defensor", mensalista: "sim" },//3
     { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
     // { Divisão 2 },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//8
-    { nome: "Pedro", posicao: "Sem posição", mensalista: "sim" },
+    { nome: "João Baron", posicao: "Atacante", mensalista: "sim" },
     { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },//6
-    
     { nome: "Du", posicao: "Sem posição", mensalista: "sim" },//12
     // { Divisão 3 },
-    { nome: "João", posicao: "Meia", mensalista: "sim" },//11
+    { nome: "João Henrique", posicao: "Meia", mensalista: "sim" },//11
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//13
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
     { nome: "Gui", posicao: "Defensor", mensalista: "não" },
+    { nome: "Pedro", posicao: "Meia", mensalista: "não" },
     { nome: "Cléo", posicao: "Meia", mensalista: "não" },
     { nome: "Caio", posicao: "Atacante", mensalista: "não" },//10
     { nome: "Giovane", posicao: "Defensor", mensalista: "não" },
