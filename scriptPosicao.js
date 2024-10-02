@@ -9,11 +9,11 @@ var jogadores = [
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//5
     { nome: "André", posicao: "Meia", mensalista: "sim" },//7
     { nome: "Fatiada", posicao: "Defensor", mensalista: "sim" },//3
-    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
+    { nome: "Gui", posicao: "Defensor", mensalista: "sim" },
     // { Divisão 2 },
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//8
     { nome: "João Baron", posicao: "Atacante", mensalista: "sim" },
-    { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },//6
+    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
     { nome: "Du", posicao: "Sem posição", mensalista: "sim" },//12
     // { Divisão 3 },
     { nome: "João H.", posicao: "Meia", mensalista: "sim" },//11
@@ -21,7 +21,7 @@ var jogadores = [
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
-    { nome: "Gui", posicao: "Defensor", mensalista: "não" },
+    { nome: "Gaúcho", posicao: "Meia", mensalista: "não" },//6
     { nome: "Pedro", posicao: "Meia", mensalista: "não" },
     { nome: "Cléo", posicao: "Meia", mensalista: "não" },
     { nome: "Caio", posicao: "Atacante", mensalista: "não" },//10
