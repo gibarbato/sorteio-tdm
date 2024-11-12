@@ -4,7 +4,7 @@ var jogadores = [
     { nome: "Guapo", posicao: "Goleiro", mensalista: "sim" },//0
     { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },//1
     // { Divisão 1 },
-    { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
+    { nome: "Manja", posicao: "Defensor", mensalista: "sim" },//2
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//4
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//5
     { nome: "André", posicao: "Meia", mensalista: "sim" },//7
