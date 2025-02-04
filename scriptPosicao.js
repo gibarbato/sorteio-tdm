@@ -19,12 +19,12 @@ var jogadores = [
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//13
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
-    { nome: "Caio", posicao: "Atacante", mensalista: "sim" },//12
+    { nome: "Manjinha", posicao: "Defensor", mensalista: "sim" },//2
     // { mensalista: "não" },
     { nome: "João Baron", posicao: "Atacante", mensalista: "não" },
-    { nome: "João H.", posicao: "Meia", mensalista: "não" },//11
     { nome: "Fatiada", posicao: "Defensor", mensalista: "não" },//3
-    { nome: "Manja", posicao: "Defensor", mensalista: "não" },//2
+    { nome: "João H.", posicao: "Meia", mensalista: "não" },//11
+    { nome: "Caio", posicao: "Atacante", mensalista: "não" },//12
     { nome: "Gaúcho", posicao: "Meia", mensalista: "não" },//6
     { nome: "Pedro", posicao: "Meia", mensalista: "não" },
     { nome: "Giovane", posicao: "Defensor", mensalista: "não" },
