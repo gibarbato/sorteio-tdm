@@ -6,7 +6,7 @@ var jogadores = [
     // { Divisão 1 },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//3
-    { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//4
+    { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Gui", posicao: "Defensor", mensalista: "sim" },//5
     // { Divisão 2 },
     { nome: "André", posicao: "Meia", mensalista: "sim" },//6
@@ -18,7 +18,7 @@ var jogadores = [
     // { Divisão 3 },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
     { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//13
-    { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
+    { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//4
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
     { nome: "João Baron", posicao: "Atacante", mensalista: "não" },
