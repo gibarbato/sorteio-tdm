@@ -13,11 +13,11 @@ var jogadores = [
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//7
     { nome: "Horácio", posicao: "Meia", mensalista: "sim" },//8
     { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
-    { nome: "Du", posicao: "Sem posição", mensalista: "sim" },//10
+    { nome: "Fatiada", posicao: "Sem posição", mensalista: "sim" },//10
     { nome: "Manjinha", posicao: "Defensor", mensalista: "sim" },//11
     // { Divisão 3 },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
-    { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//13
+    { nome: "Du", posicao: "Meia", mensalista: "sim" },//13
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
