@@ -2,19 +2,19 @@ var jogadores = [
     { nome: "Giba", posicao: "Goleiro" },
     { nome: "Guapo", posicao: "Goleiro" },
     { nome: "Mel", posicao: "Defensor" },
-    { nome: "Sérgio", posicao: "Defensor" },
+    { nome: "Gaúcho", posicao: "Defensor" },
     { nome: "Gui", posicao: "Defensor" },
     { nome: "Luizão", posicao: "Defensor" },
     { nome: "Cléo", posicao: "Meia" },
     { nome: "Werner", posicao: "Meia" },
     { nome: "Guga", posicao: "Meia" },
     { nome: "Ademar", posicao: "Meia" },
-    { nome: "Dú", posicao: "Atacante" },
+    { nome: "João Henrique", posicao: "Atacante" },
     { nome: "André (Babi)", posicao: "Atacante" },
     { nome: "Manjinha", posicao: "Atacante" },
     { nome: "Maycon", posicao: "Atacante" },
     { nome: "Horácio", posicao: "Atacante" },
-    { nome: "xhande", posicao: "Atacante" }
+    { nome: "Xhande", posicao: "Atacante" }
 ];
 
 //XXXXXXX CONFIRMAÇÃO PARA O JOGO XXXXXXXX
