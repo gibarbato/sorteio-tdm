@@ -102,16 +102,20 @@ function sortearTimes() {
     // embaralhamento dos jogadores
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
     var p1 = shuffle(selecaoJogadores.slice(2, 6));
-    var p2 = shuffle(selecaoJogadores.slice(6, 12));
-    var p3 = shuffle(selecaoJogadores.slice(12, 16));
+    // var p2 = shuffle(selecaoJogadores.slice(6, 12));
+    var p2 = shuffle(selecaoJogadores.slice(6, 14));
+    // var p3 = shuffle(selecaoJogadores.slice(12, 16));
+    var p3 = shuffle(selecaoJogadores.slice(14, 16));
     console.log(goleiros);
     console.log(p1);
     console.log(p2);
     console.log(p3);
 
-    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 2)]
+    // var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 2)]
+    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 4), ...p3.slice(0, 1)]
     // var jogadoresLaranja = [...p1.slice(0, 3), ...p2.slice(5)]
-    var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(2)]
+    // var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(2)]
+    var jogadoresPreto = [...p1.slice(2), ...p2.slice(4), ...p3.slice(1)]
     // var jogadoresPreto = [...p1.slice(3), ...p2.slice(0, 5)]
 
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
