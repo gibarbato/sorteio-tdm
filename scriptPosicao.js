@@ -15,9 +15,9 @@ var jogadores = [
     { nome: "André", posicao: "Meia", mensalista: "sim" },//6
     { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//7
     { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//10
-    // { Divisão 3 },
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
     { nome: "João H.", posicao: "Meia", mensalista: "sim" },//11
+    // { Divisão 3 },
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
     // { mensalista: "não" },
@@ -102,16 +102,16 @@ function sortearTimes() {
     // embaralhamento dos jogadores
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
     var p1 = shuffle(selecaoJogadores.slice(2, 7));
-    var p2 = shuffle(selecaoJogadores.slice(7, 12));
-    var p3 = shuffle(selecaoJogadores.slice(12, 16));
+    var p2 = shuffle(selecaoJogadores.slice(7, 14));
+    var p3 = shuffle(selecaoJogadores.slice(14, 16));
     console.log(goleiros);
     console.log(p1);
     console.log(p2);
     console.log(p3);
 
-    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 2)]
+    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 1)]
     // var jogadoresLaranja = [...p1.slice(0, 3), ...p2.slice(5)]
-    var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(2)]
+    var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(1)]
     // var jogadoresPreto = [...p1.slice(3), ...p2.slice(0, 5)]
 
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
