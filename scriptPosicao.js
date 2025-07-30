@@ -109,9 +109,9 @@ function sortearTimes() {
     console.log(p2);
     console.log(p3);
 
-    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 1)]
+    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 4), ...p3.slice(0, 1)]
     // var jogadoresLaranja = [...p1.slice(0, 3), ...p2.slice(5)]
-    var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(1)]
+    var jogadoresPreto = [...p1.slice(2), ...p2.slice(4), ...p3.slice(1)]
     // var jogadoresPreto = [...p1.slice(3), ...p2.slice(0, 5)]
 
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
