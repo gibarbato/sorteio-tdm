@@ -101,8 +101,8 @@ function sortearTimes() {
     
     // embaralhamento dos jogadores
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
-    var p1 = shuffle(selecaoJogadores.slice(2, 7));
-    var p2 = shuffle(selecaoJogadores.slice(7, 12));
+    var p1 = shuffle(selecaoJogadores.slice(2, 6));
+    var p2 = shuffle(selecaoJogadores.slice(6, 12));
     var p3 = shuffle(selecaoJogadores.slice(12, 16));
     console.log(goleiros);
     console.log(p1);
