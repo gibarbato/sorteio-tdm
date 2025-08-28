@@ -7,13 +7,13 @@ var jogadores = [
     { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//4
     { nome: "Gui", posicao: "Defensor", mensalista: "sim" },//5
     { nome: "Gaúcho", posicao: "Meia", mensalista: "sim" },//6
-    { nome: "Manjinha", posicao: "Defensor", mensalista: "sim" },//11
+    { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//7
     // { Divisão 2 },
     { nome: "Horácio", posicao: "Meia", mensalista: "sim" },//8
+    { nome: "Manjinha", posicao: "Defensor", mensalista: "sim" },//11
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
     { nome: "Xhande", posicao: "Meia", mensalista: "sim" },//9
     { nome: "André", posicao: "Meia", mensalista: "sim" },//6
-    { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//7
     { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//10
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
     { nome: "João H.", posicao: "Meia", mensalista: "sim" },//11
