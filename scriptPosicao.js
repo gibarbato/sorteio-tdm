@@ -112,7 +112,7 @@ function sortearTimes() {
     var p3 = shuffle(selecaoJogadores.slice(14, 16));
     console.log(goleiros);
     console.log(p1);
-    console.log(p21);
+    console.log(p2);
     console.log(p3);
 
     // var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 2)]
