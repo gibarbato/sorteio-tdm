@@ -4,19 +4,20 @@ var jogadores = [
     { nome: "Guapo", posicao: "Goleiro", mensalista: "sim" },//0
     { nome: "Giba", posicao: "Goleiro", mensalista: "sim" },//1
     // { Divisão 1 },
-    { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//4
-    { nome: "Gui", posicao: "Defensor", mensalista: "sim" },//5
-    { nome: "Horácio", posicao: "Meia", mensalista: "sim" },//8
-    { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//7
-    // { Divisão 2 },
-    { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//3
-    { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//2
-    { nome: "Leo", posicao: "Meia", mensalista: "sim" },//11
-    { nome: "Du", posicao: "Meia", mensalista: "sim" },//13
-    { nome: "André", posicao: "Meia", mensalista: "sim" },//6
-    { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//10
+    { nome: "Luizão", posicao: "Meia", mensalista: "sim" },//2
+    { nome: "Gui", posicao: "Defensor", mensalista: "sim" },//3
+    { nome: "Horácio", posicao: "Meia", mensalista: "sim" },//4
+    { nome: "Maycon", posicao: "Atacante", mensalista: "sim" },//5
+    // { Divisão 2.1 },
+    { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },//6
+    { nome: "Mel", posicao: "Defensor", mensalista: "sim" },//7
+    { nome: "André", posicao: "Meia", mensalista: "sim" },//10
+    { nome: "João H.", posicao: "Meia", mensalista: "sim" },//13
+    // { Divisão 2.2 },
+    { nome: "Leo", posicao: "Meia", mensalista: "sim" },//8
+    { nome: "Du", posicao: "Meia", mensalista: "sim" },//9
+    { nome: "Cléo", posicao: "Meia", mensalista: "sim" },//11
     { nome: "Werner", posicao: "Meia", mensalista: "sim" },//12
-    { nome: "João H.", posicao: "Meia", mensalista: "sim" },//11
     // { Divisão 3 },
     { nome: "Guga", posicao: "Atacante", mensalista: "sim" },//14
     { nome: "Ademar", posicao: "Atacante", mensalista: "sim" },//15
@@ -104,7 +105,9 @@ function sortearTimes() {
     var goleiros = shuffle(selecaoJogadores.slice(0, 2));
     var p1 = shuffle(selecaoJogadores.slice(2, 6));
     // var p2 = shuffle(selecaoJogadores.slice(6, 12));
-    var p2 = shuffle(selecaoJogadores.slice(6, 14));
+    //var p2 = shuffle(selecaoJogadores.slice(6, 14));
+    var p21 = shuffle(selecaoJogadores.slice(6, 10));
+    var p22 = shuffle(selecaoJogadores.slice(10, 14));
     // var p3 = shuffle(selecaoJogadores.slice(12, 16));
     var p3 = shuffle(selecaoJogadores.slice(14, 16));
     console.log(goleiros);
@@ -113,10 +116,10 @@ function sortearTimes() {
     console.log(p3);
 
     // var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 3), ...p3.slice(0, 2)]
-    var jogadoresLaranja = [...p1.slice(0, 2), ...p2.slice(0, 4), ...p3.slice(0, 1)]
+    var jogadoresLaranja = [...p1.slice(0, 2), ...p21.slice(0, 2), ...p22.slice(0, 2), ...p3.slice(0, 1)]
     // var jogadoresLaranja = [...p1.slice(0, 3), ...p2.slice(5)]
     // var jogadoresPreto = [...p1.slice(2), ...p2.slice(3), ...p3.slice(2)]
-    var jogadoresPreto = [...p1.slice(2), ...p2.slice(4), ...p3.slice(1)]
+    var jogadoresPreto = [...p1.slice(2), ...p21.slice(2), ...p22.slice(2), ...p3.slice(1)]
     // var jogadoresPreto = [...p1.slice(3), ...p2.slice(0, 5)]
 
     var timeLaranja = [goleiros[0], ...shuffle(jogadoresLaranja)];
