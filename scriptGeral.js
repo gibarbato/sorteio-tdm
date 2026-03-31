@@ -5,7 +5,7 @@ var jogadores = [
     { nome: "Sérgio", posicao: "Defensor", mensalista: "sim" },
     { nome: "Mel", posicao: "Defensor", mensalista: "sim" },
     { nome: "Luizão", posicao: "Defensor", mensalista: "sim" },
-    { nome: "Du", posicao: "Meia", mensalista: "sim" },
+    { nome: "Xhande", posicao: "Meia", mensalista: "sim" },
     { nome: "Léo", posicao: "Meia", mensalista: "sim" },
     { nome: "André", posicao: "Meia", mensalista: "sim" },
     { nome: "Maycon", posicao: "Meia", mensalista: "sim" },
