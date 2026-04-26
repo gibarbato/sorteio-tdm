@@ -2,7 +2,7 @@ var jogadores = [
     { nome: "Giba", posicao: "Goleiro" },
     { nome: "Guapo", posicao: "Goleiro" },
     { nome: "Mel", posicao: "Defensor" },
-    { nome: "Gaúcho", posicao: "Defensor" },
+    { nome: "Sérgio", posicao: "Defensor" },
     { nome: "Gui", posicao: "Defensor" },
     { nome: "Luizão", posicao: "Defensor" },
     { nome: "Cléo", posicao: "Meia" },
@@ -11,7 +11,7 @@ var jogadores = [
     { nome: "Ademar", posicao: "Meia" },
     { nome: "João Henrique", posicao: "Atacante" },
     { nome: "André (Babi)", posicao: "Atacante" },
-    { nome: "Manjinha", posicao: "Atacante" },
+    { nome: "Léo", posicao: "Atacante" },
     { nome: "Maycon", posicao: "Atacante" },
     { nome: "Horácio", posicao: "Atacante" },
     { nome: "Xhande", posicao: "Atacante" }
